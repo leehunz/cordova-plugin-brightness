@@ -1,9 +1,8 @@
-# [Cordova Brightness](https://github.com/mgcrea/cordova-plugin-brightness) [![Release](https://img.shields.io/npm/v/cordova-plugin-brightness.svg?style=flat)](https://github.com/mgcrea/cordova-plugin-brightness/releases)
+# [Cordova Brightness](https://github.com/leehunz/cordova-plugin-brightness) [![Release](https://img.shields.io/npm/v/cordova-plugin-brightness.svg?style=flat)](https://github.com/leehunz/cordova-plugin-brightness/releases)
 
-This plugin provides a simple way to interact with the brightness of your device.
+This plugin provides a simple way to interact with the brightness of your device. This project is a fork of [cordova-plugin-brightness by mgcrea](https://github.com/mgcrea/cordova-plugin-brightness)
 
-* This plugin is built for `cordova@^3.6`.
-
+* This plugin is built for cordova 3+.
 * This plugin currently supports both iOS and Android.
 
 
@@ -26,8 +25,6 @@ Using this plugin requires [Cordova iOS](https://github.com/apache/cordova-ios).
     // prevents sleep
     brightness.setKeepScreenOn(true);
 
-* Check [source](https://github.com/mgcrea/cordova-plugin-brightness/tree/master/www/brightness.js) for additional configuration.
-
 
 ## Communication
 
@@ -36,13 +33,6 @@ Using this plugin requires [Cordova iOS](https://github.com/apache/cordova-ios).
 - If you **found a bug**, open an issue.
 - If you **have a feature request**, open an issue.
 - If you **want to contribute**, submit a pull request.
-
-
-## Contributing
-
-Patches welcome! Send a pull request. Since this is not a part of Cordova Core (which requires a CLA), this should be easier.
-
-Please submit all pull requests the against master branch. If your pull request contains JavaScript patches or features, you should include relevant unit tests. Thanks!
 
 
 ## Original Authors
