@@ -10,7 +10,9 @@ This plugin provides a simple way to interact with the brightness of your device
 
 Using this plugin requires [Cordova iOS](https://github.com/apache/cordova-ios).
 
-1. `cordova plugin add cordova-plugin-brightness`
+    phonegap local plugin add https://github.com/leehunz/cordova-plugin-brightness.git
+    [phonegap] adding the plugin: https://github.com/leehunz/cordova-plugin-brightness.git
+    [phonegap] successfully added the plugin
 
 
 ## Javascript interface
